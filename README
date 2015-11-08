@@ -1,3 +1,5 @@
 Python script which monitors a directory for added files, uploads them to VirusTotal, and returns the results
 
 Usage: ./vtdirmon.py <directory>
+
+This script can be used for a PirateBox or anywhere users upload or share untrusted files. The output of the script can be returned to users to display a hash, VirusTotal URL, and whether the file is clean or infected.
